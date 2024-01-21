@@ -1,0 +1,56 @@
+nav {
+  background-color: brown;
+  color: burlywood;
+  margin: 15px;
+  padding: 15px;
+}
+menuitem,
+h1,
+menu {
+  display: inline;
+}
+menu {
+  margin-left: 55%;
+}
+menuitem {
+  color: crimson;
+}
+menuitem:hover {
+  color: burlywood;
+}
+input {
+  width: 65%;
+  padding: 10px;
+}
+.searchbar {
+  padding: 50px;
+  text-align: center;
+}
+.box {
+  border: 2px solid brown;
+  display: inline-block;
+  width: 220px;
+}
+.box:hover {
+  background-color: brown;
+  color: burlywood;
+}
+.product {
+  text-align: center;
+}
+.about {
+  text-align: center;
+  margin-top: 25px;
+  padding: 25px;
+}
+.contact {
+  background-color: brown;
+  color: burlywood;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.p2 {
+  letter-spacing: 3px;
+  line-height: 25px;
+}
