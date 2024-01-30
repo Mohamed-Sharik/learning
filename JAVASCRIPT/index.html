@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One More Page</title>
+    <link rel="icon" href="imgs/icon2.png" class="icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="imgs/img1.png" alt="bookimage" width="150px" height="120px" />
+      <h1>One More Page</h1>
+      <img src="imgs/img1.png" alt="bookimage" width="150px" height="120px" />
+    </div>
+    <div class="container">
+      <div class="book-container">
+        <h2>Rich Dad Poor Dad</h2>
+        <h4>Robert T. Kiyosaki</h4>
+        <p>
+          Rich Dad Poor Dad by Robert Kiyosaki and Sharon Lechter is a book that
+          came out in 1997 and focuses on the importance of financial literacy
+          from an early age. Throughout the book, the author explains how a
+          person can increase their wealth by investing in assets and by being
+          smart with money.
+        </p>
+        <button onclick="del(event)">Delete</button>
+      </div>
+    </div>
+    <div class="ppol"></div>
+    <div class="ppb">
+      <h2>Add Book</h2>
+      <form>
+        <input type="text" placeholder="Book Title" id="bt" />
+        <input type="text" placeholder="Book Author" id="ba" />
+        <textarea placeholder="Short Description" id="bd"></textarea>
+        <button id="adp">ADD</button>
+        <button id="cb">CANCEL</button>
+      </form>
+    </div>
+    <div class="pp">
+      <button id="apb" class="ab">+</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
